@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    input[type="button"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="button"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <script type="text/javascript">
+    function submitToPage() {
+      window.location = "http://www.google.com";
+    }
+  </script>
+</head>
+
+<body>
+  <p>If you click the following button, you will be redirected to the home page.</p>
+  <form>
+    <input type="button" value="Redirect Me" onclick="submitToPage();" />
+  </form>
+</body>
+
+</html>
